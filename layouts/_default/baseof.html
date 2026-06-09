@@ -13,7 +13,7 @@
 <body>
   <header class="site-header">
     <nav class="nav container">
-      <a href="{{ "/" | relURL }}" class="nav-brand">{{ .Site.Params.author }}</a>
+      <a href="{{ .Site.BaseURL }}" class="nav-brand">{{ .Site.Params.author }}</a>
       <ul class="nav-links">
         {{ range .Site.Menus.main }}
         <li><a href="{{ .URL | relURL }}" {{ if eq $.RelPermalink .URL }}class="active"{{ end }}>{{ .Name }}</a></li>
@@ -34,7 +34,6 @@
       <div class="footer-links">
         {{ with .Site.Params.github }}<a href="{{ . }}" target="_blank" rel="noopener">GitHub</a>{{ end }}
         {{ with .Site.Params.linkedin }}<a href="{{ . }}" target="_blank" rel="noopener">LinkedIn</a>{{ end }}
-        {{ with .Site.Params.email }}<a href="mailto:{{ . }}">Email</a>{{ end }}
       </div>
       <p class="footer-copy">© {{ now.Year }} {{ .Site.Params.author }}</p>
     </div>
