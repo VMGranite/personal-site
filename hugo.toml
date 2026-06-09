@@ -6,9 +6,8 @@ title = "Veronica Granite | DevOps Engineer"
   author = "Veronica Granite"
   description = "A DevOps engineer writing about technology topics and what not."
   tagline = "Software, Cloud and Beyond"
-  github = "https://github.com/yourusername"
+  github = "https://github.com/VMGranite"
   linkedin = "https://www.linkedin.com/in/veronicagranite/"
-  email = "you@example.com"
   showReadingTime = true
 
 [menu]

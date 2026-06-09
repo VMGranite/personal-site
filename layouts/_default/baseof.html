@@ -13,7 +13,7 @@
 <body>
   <header class="site-header">
     <nav class="nav container">
-      <a href="{{ .Site.BaseURL }}" class="nav-brand">{{ .Site.Params.author }}</a>
+      <a href="{{ .Site.BaseURL }}" class="nav-brand">Home</a>
       <ul class="nav-links">
         {{ range .Site.Menus.main }}
         <li><a href="{{ .URL | relURL }}" {{ if eq $.RelPermalink .URL }}class="active"{{ end }}>{{ .Name }}</a></li>
