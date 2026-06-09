@@ -1,0 +1,34 @@
+baseURL = "https://yourusername.github.io/"
+languageCode = "en-us"
+title = "Veronica Granite | DevOps Engineer"
+
+[params]
+  author = "Veronica Granite"
+  description = "A DevOps engineer writing about technology topics and what not."
+  tagline = "Software, Cloud and Beyond"
+  github = "https://github.com/yourusername"
+  linkedin = "https://www.linkedin.com/in/veronicagranite/"
+  email = "you@example.com"
+  showReadingTime = true
+
+[menu]
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[markup]
+  [markup.highlight]
+    style = "github-dark"
+    lineNos = false
+    codeFences = true
+  [markup.goldmark.renderer]
+    unsafe = true

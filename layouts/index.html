@@ -1,0 +1,35 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="hero-content">
+    <h1 class="hero-name">{{ .Site.Params.author }}</h1>
+    <p class="hero-tagline">{{ .Site.Params.tagline }}</p>
+    <p class="hero-bio">{{ .Site.Params.description }}</p>
+    <div class="hero-cta">
+      <a href="/posts/" class="btn btn-primary">Read the Blog</a>
+      <a href="/about/" class="btn btn-secondary">About Me</a>
+    </div>
+  </div>
+</section>
+
+<section class="recent-posts">
+  <h2 class="section-title">Recent Posts</h2>
+  <div class="post-list">
+    {{ range first 5 (where .Site.RegularPages "Section" "posts") }}
+    <article class="post-card">
+      <div class="post-card-meta">
+        <time>{{ .Date.Format "Jan 2, 2006" }}</time>
+        {{ range .Params.tags }}<a href="/tags/{{ . | urlize }}/" class="tag">{{ . }}</a>{{ end }}
+      </div>
+      <h3 class="post-card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+      <p class="post-card-summary">{{ .Summary }}</p>
+      <a href="{{ .Permalink }}" class="read-more">Read more →</a>
+    </article>
+    {{ end }}
+  </div>
+  {{ if gt (len (where .Site.RegularPages "Section" "posts")) 5 }}
+  <div class="all-posts-link">
+    <a href="/posts/" class="btn btn-secondary">All Posts →</a>
+  </div>
+  {{ end }}
+</section>
+{{ end }}

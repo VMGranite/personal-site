@@ -1,0 +1,22 @@
+{{ define "main" }}
+<div class="list-page">
+  <header class="list-header">
+    <h1>{{ if .IsHome }}All Posts{{ else }}{{ .Title }}{{ end }}</h1>
+    {{ with .Description }}<p class="list-description">{{ . }}</p>{{ end }}
+  </header>
+
+  <div class="post-list">
+    {{ range .Pages }}
+    <article class="post-card">
+      <div class="post-card-meta">
+        <time>{{ .Date.Format "Jan 2, 2006" }}</time>
+        {{ range .Params.tags }}<a href="/tags/{{ . | urlize }}/" class="tag">{{ . }}</a>{{ end }}
+      </div>
+      <h2 class="post-card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      <p class="post-card-summary">{{ .Summary }}</p>
+      <a href="{{ .Permalink }}" class="read-more">Read more →</a>
+    </article>
+    {{ end }}
+  </div>
+</div>
+{{ end }}
