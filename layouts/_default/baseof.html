@@ -16,7 +16,7 @@
       <a href="{{ "/" | relURL }}" class="nav-brand">{{ .Site.Params.author }}</a>
       <ul class="nav-links">
         {{ range .Site.Menus.main }}
-        <li><a href="{{ .URL }}" {{ if eq $.RelPermalink .URL }}class="active"{{ end }}>{{ .Name }}</a></li>
+        <li><a href="{{ .URL | relURL }}" {{ if eq $.RelPermalink .URL }}class="active"{{ end }}>{{ .Name }}</a></li>
         {{ end }}
       </ul>
       <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">

@@ -1,7 +1,6 @@
 ---
 title: "About"
 layout: "about"
-url: "/about/"
 ---
 
 <div class="about-content">
