@@ -19,6 +19,14 @@
         <li><a href="{{ .URL | relURL }}" {{ if eq $.RelPermalink .URL }}class="active"{{ end }}>{{ .Name }}</a></li>
         {{ end }}
       </ul>
+      <div class="nav-social">
+        {{ with .Site.Params.github }}
+        <a href="{{ . }}" target="_blank" rel="noopener" aria-label="GitHub">{{ partial "icons/github.html" . }}</a>
+        {{ end }}
+        {{ with .Site.Params.linkedin }}
+        <a href="{{ . }}" target="_blank" rel="noopener" aria-label="LinkedIn">{{ partial "icons/linkedin.html" . }}</a>
+        {{ end }}
+      </div>
       <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
         <span class="theme-icon">☀</span>
       </button>
@@ -31,10 +39,6 @@
 
   <footer class="site-footer">
     <div class="container">
-      <div class="footer-links">
-        {{ with .Site.Params.github }}<a href="{{ . }}" target="_blank" rel="noopener">GitHub</a>{{ end }}
-        {{ with .Site.Params.linkedin }}<a href="{{ . }}" target="_blank" rel="noopener">LinkedIn</a>{{ end }}
-      </div>
       <p class="footer-copy">© {{ now.Year }} {{ .Site.Params.author }}</p>
     </div>
   </footer>
