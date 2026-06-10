@@ -8,8 +8,8 @@ layout: "about"
 # Veronica Granite
 <div class="subtitle">Complexity Navigator | Enablement Engineer</div>
 
-I'm a DevOps Engineer passionate about technology, <br>
-as well as how to enable teams to build great products. 
+I'm an engineer passionate about technology, <br>
+and figuring out how to enable teams to build great products. 
 
 ---
 
