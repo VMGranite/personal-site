@@ -299,6 +299,14 @@ img { max-width: 100%; height: auto; }
   margin-bottom: 1rem;
 }
 
+.post-author {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  margin-bottom: 0.5rem;
+}
+
 .post-tags { display: flex; gap: 0.4rem; flex-wrap: wrap; }
 
 /* ── Post content (typography) ───────────────────────────── */

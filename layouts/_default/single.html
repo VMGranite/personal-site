@@ -9,6 +9,7 @@
       {{ end }}
     </div>
     <h1 class="post-title">{{ .Title }}</h1>
+    <h2 class="post-author">Author: {{ .Site.Params.author }}</h2>
     {{ if .Params.tags }}
     <div class="post-tags">
       {{ range .Params.tags }}<a href="/tags/{{ . | urlize }}/" class="tag">{{ . }}</a>{{ end }}
