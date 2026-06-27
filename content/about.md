@@ -6,10 +6,10 @@ layout: "about"
 <div class="about-content">
 
 # Veronica Granite
-<div class="subtitle">Complexity Navigator | Enablement Engineer</div>
+<div class="subtitle">Full-Stack Thinker  | Engineer with Range</div>
 
-I'm an engineer passionate about technology, <br>
-and figuring out how to enable teams to build great products. 
+Passionate about technology and the people behind it, <br>
+from the code that ships to the culture that scales it.
 
 ---
 
