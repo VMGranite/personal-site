@@ -76,9 +76,9 @@ from the code that ships to the culture that scales it.
 </div>
 
 ---
-
+<!-- 
 ## Certifications
 
 - Azure
 
-</div>
+</div> -->
