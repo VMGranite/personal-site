@@ -1,6 +1,6 @@
 baseURL = "https://vmgranite.github.io/personal-site/"
 languageCode = "en-us"
-title = "Veronica Granite | DevOps Engineer"
+title = "Veronica Granite | Code to Culture"
 
 [params]
   author = "Veronica Granite"
