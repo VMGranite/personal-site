@@ -55,6 +55,16 @@ from the code that ships to the culture that scales it.
 
 ---
 
+## Education
+
+<div class="resume-entry">
+  <div class="role">B.S. Software Engineering</div>
+  <div class="company">Monmouth University</div>
+  <div class="dates">2017</div>
+</div>
+
+---
+
 ## Skills
 
 <div class="skills-grid">
@@ -63,16 +73,6 @@ from the code that ships to the culture that scales it.
   <span class="tag">Docker Containerization</span>
   <span class="tag">GitOps Practices</span>
   <span class="tag">DevOps Workflows</span>
-</div>
-
----
-
-## Education
-
-<div class="resume-entry">
-  <div class="role">B.S. Software Engineering</div>
-  <div class="company">Monmouth University</div>
-  <div class="dates">2017</div>
 </div>
 
 ---
