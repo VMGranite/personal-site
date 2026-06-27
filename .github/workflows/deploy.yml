@@ -27,7 +27,7 @@ jobs:
           hugo-version: "0.147.0"
           extended: true
 
-      - name: Setup Pages
+      - name: Setup GitHub Pages
         id: pages
         uses: actions/configure-pages@v5
         with:
@@ -35,6 +35,8 @@ jobs:
 
       - name: Build
         run: hugo --minify
+        env:
+          HUGO_BASEURL: "https://vmgranite.github.io/personal-site/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
