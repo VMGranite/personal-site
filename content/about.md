@@ -20,12 +20,10 @@ from the code that ships to the culture that scales it.
   <div class="company">ALDI Nord</div>
   <div class="dates">August 2024 – Present</div>
   <div class="desc">
-    Azure Cloud, Azure Devops, Terraform
   </div>
   <div class="company">GALERIA Karstadt Kaufhof GmbH</div>
   <div class="dates">March 2024 – June 2024</div>
   <div class="desc">
-    AWS, Virtual Machine, Linux
   </div>
 </div>
 
@@ -42,7 +40,6 @@ from the code that ships to the culture that scales it.
   <div class="company">Elyxor, Inc. - Software Consulting</div>
   <div class="dates">June 2021 – February 2023</div>
   <div class="desc">
-    
   </div>
   <div class="company">Booz Allen Hamilton - Government Contractor</div>
   <div class="dates">August 2019 – May 2021</div>
