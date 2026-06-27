@@ -34,9 +34,7 @@ jobs:
           enablement: true
 
       - name: Build
-        run: hugo --minify
-        env:
-          HUGO_BASEURL: "https://vmgranite.github.io/personal-site/"
+        run: hugo --minify --baseURL "https://vmgranite.github.io/personal-site/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
