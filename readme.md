@@ -36,6 +36,8 @@ hugo new posts/my-new-post.md
 
 Your site will be live at `https://yourusername.github.io` (user site) or `https://yourusername.github.io/repo-name/` (project site).
 
+`https://vmgranite.github.io/personal-site/`
+
 ## Structure
 
 ```

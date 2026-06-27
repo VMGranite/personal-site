@@ -1,4 +1,4 @@
 ---
 title: "Blog"
-description: "Writings on DevOps, platform engineering, infrastructure, and automation."
+description: "Writings on Code and Culture."
 ---
