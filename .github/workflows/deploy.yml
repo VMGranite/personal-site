@@ -32,10 +32,7 @@ jobs:
         uses: actions/configure-pages@v5
         with:
           enablement: true
-
-      - name: Debug base URL
-        run: echo "configure-pages base_url=${{ steps.pages.outputs.base_url }}"
-
+          
       - name: Build
         run: hugo --minify --baseURL "https://vmgranite.github.io/personal-site/"
 
