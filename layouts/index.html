@@ -24,7 +24,7 @@
   </div>
   {{ if gt (len (where .Site.RegularPages "Section" "posts")) 5 }}
   <div class="all-posts-link">
-    <a href="{{ "/posts/" | relURL }}" class="btn btn-secondary">All Posts →</a>
+    <a href="{{ "/posts/" | absURL }}" class="btn btn-secondary">All Posts →</a>
   </div>
   {{ end }}
 </section>
