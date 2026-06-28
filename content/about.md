@@ -17,11 +17,11 @@ from the code that ships to the culture that scales it.
 
 <div class="resume-entry">
   <div class="role">DevOps Engineer</div>
-  <div class="company">ALDI Nord</div>
+  <div class="company">ALDI Nord - Grocery Retailer</div>
   <div class="dates">August 2024 – Present</div>
   <div class="desc">
   </div>
-  <div class="company">GALERIA Karstadt Kaufhof GmbH</div>
+  <div class="company">GALERIA Karstadt Kaufhof GmbH - Retailer</div>
   <div class="dates">March 2024 – June 2024</div>
   <div class="desc">
   </div>
