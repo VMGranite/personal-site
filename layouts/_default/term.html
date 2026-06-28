@@ -1,8 +1,7 @@
 {{ define "main" }}
 <div class="list-page">
   <header class="list-header">
-    <h1>{{ if .IsHome }}All Posts{{ else }}{{ .Title }}{{ end }}</h1>
-    {{ with .Description }}<p class="list-description">{{ . }}</p>{{ end }}
+    <h1>Posts tagged "{{ .Title }}"</h1>
   </header>
 
   <div class="post-list">
@@ -10,7 +9,7 @@
     <article class="post-card">
       <div class="post-card-meta">
         <time>{{ .Date.Format "Jan 2, 2006" }}</time>
-        {{ partial "post-tags.html" . }}
+        {{ range .Params.tags }}<a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}/" class="tag">{{ . }}</a>{{ end }}
       </div>
       <h2 class="post-card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
       <p class="post-card-summary">{{ .Summary }}</p>
