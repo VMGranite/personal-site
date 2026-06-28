@@ -410,6 +410,13 @@ img { max-width: 100%; height: auto; }
 .list-page {}
 .list-header { margin-bottom: 2.5rem; }
 .list-header h1 { font-size: 1.8rem; font-weight: 700; }
+
+/* ── Archive page ────────────────────────────────────────── */
+.archive-year { margin-bottom: 2.5rem; }
+.archive-year-title { font-size: 1.2rem; font-weight: 600; color: var(--text-muted); font-family: var(--font-mono); margin-bottom: 0.75rem; }
+.archive-list { list-style: none; }
+.archive-item { display: flex; gap: 1.5rem; padding: 0.4rem 0; border-bottom: 1px solid var(--border); }
+.archive-item time { color: var(--text-muted); font-family: var(--font-mono); font-size: 0.85rem; flex-shrink: 0; }
 .list-description { color: var(--text-muted); margin-top: 0.5rem; }
 
 /* ── About / resume page ─────────────────────────────────── */

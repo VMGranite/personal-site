@@ -18,5 +18,10 @@
     </article>
     {{ end }}
   </div>
+  {{ if eq .Section "posts" }}
+  <div class="all-posts-link">
+    <a href="{{ $.Site.BaseURL }}archive/" class="btn btn-secondary">Archive →</a>
+  </div>
+  {{ end }}
 </div>
 {{ end }}
