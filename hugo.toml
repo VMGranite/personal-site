@@ -20,6 +20,9 @@ title = "Veronica Granite | Code to Culture"
     url = "/about/"
     weight = 2
 
+[pagination]
+  pagerSize = 5
+
 [taxonomies]
   tag = "tags"
   category = "categories"

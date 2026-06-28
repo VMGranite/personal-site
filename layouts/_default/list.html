@@ -3,10 +3,13 @@
   <header class="list-header">
     <h1>{{ if .IsHome }}All Posts{{ else }}{{ .Title }}{{ end }}</h1>
     {{ with .Description }}<p class="list-description">{{ . }}</p>{{ end }}
+    {{ if eq .Section "posts" }}
+    <a href="{{ $.Site.BaseURL }}archive/" class="btn btn-secondary">Archive →</a>
+    {{ end }}
   </header>
 
   <div class="post-list">
-    {{ range .Pages }}
+    {{ range .Paginator.Pages }}
     <article class="post-card">
       <div class="post-card-meta">
         <time>{{ .Date.Format "Jan 2, 2006" }}</time>
@@ -18,10 +21,18 @@
     </article>
     {{ end }}
   </div>
-  {{ if eq .Section "posts" }}
-  <div class="all-posts-link">
-    <a href="{{ $.Site.BaseURL }}archive/" class="btn btn-secondary">Archive →</a>
-  </div>
+
+  {{ if gt .Paginator.TotalPages 1 }}
+  <nav class="pagination">
+    {{ if .Paginator.HasPrev }}
+    <a href="{{ .Paginator.Prev.URL }}" class="btn btn-secondary">← Newer</a>
+    {{ end }}
+    <span class="pagination-info">{{ .Paginator.PageNumber }} / {{ .Paginator.TotalPages }}</span>
+    {{ if .Paginator.HasNext }}
+    <a href="{{ .Paginator.Next.URL }}" class="btn btn-secondary">Older →</a>
+    {{ end }}
+  </nav>
   {{ end }}
+
 </div>
 {{ end }}

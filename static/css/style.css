@@ -411,6 +411,10 @@ img { max-width: 100%; height: auto; }
 .list-header { margin-bottom: 2.5rem; }
 .list-header h1 { font-size: 1.8rem; font-weight: 700; }
 
+/* ── Pagination ──────────────────────────────────────────── */
+.pagination { display: flex; align-items: center; justify-content: space-between; margin-top: 2rem; }
+.pagination-info { font-size: 0.85rem; color: var(--text-muted); font-family: var(--font-mono); }
+
 /* ── Archive page ────────────────────────────────────────── */
 .archive-year { margin-bottom: 2.5rem; }
 .archive-year-title { font-size: 1.2rem; font-weight: 600; color: var(--text-muted); font-family: var(--font-mono); margin-bottom: 0.75rem; }
