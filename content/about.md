@@ -73,6 +73,7 @@ from the code that ships to the culture that scales it.
   <span class="tag">Docker Containerization</span>
   <span class="tag">GitOps Practices</span>
   <span class="tag">DevOps Workflows</span>
+  <span class="tag">Software Development Life Cycle</span>
 </div>
 
 ---
