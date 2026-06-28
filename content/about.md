@@ -17,11 +17,11 @@ from the code that ships to the culture that scales it.
 
 <div class="resume-entry">
   <div class="role">DevOps Engineer</div>
-  <div class="company">ALDI Nord - Grocery Retailer</div>
+  <div class="company">ALDI Nord <span class="company-type">- Grocery Retailer</span></div>
   <div class="dates">August 2024 – Present</div>
   <div class="desc">
   </div>
-  <div class="company">GALERIA Karstadt Kaufhof GmbH - Retailer</div>
+  <div class="company">GALERIA Karstadt Kaufhof GmbH <span class="company-type">- Retailer</span></div>
   <div class="dates">March 2024 – June 2024</div>
   <div class="desc">
   </div>
@@ -37,16 +37,16 @@ from the code that ships to the culture that scales it.
 
 <div class="resume-entry">
   <div class="role">Software Engineer</div>
-  <div class="company">Elyxor, Inc. - Software Consulting</div>
+  <div class="company">Elyxor, Inc. <span class="company-type">- Software Consulting</span></div>
   <div class="dates">June 2021 – February 2023</div>
   <div class="desc">
   </div>
-  <div class="company">Booz Allen Hamilton - Government Contractor</div>
+  <div class="company">Booz Allen Hamilton <span class="company-type">- Government Contractor</span></div>
   <div class="dates">August 2019 – May 2021</div>
   <div class="desc">
     
   </div>
-  <div class="company">WorkWave - Business Service Software</div>
+  <div class="company">WorkWave <span class="company-type">- Business Service Software</span></div>
   <div class="dates">November 2017 – June 2019</div>
   <div class="desc">
     

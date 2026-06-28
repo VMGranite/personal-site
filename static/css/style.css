@@ -427,6 +427,7 @@ img { max-width: 100%; height: auto; }
 
 /* ── About / resume page ─────────────────────────────────── */
 .about-content { font-size: 1.05rem; line-height: 1.8; }
+.company-type { font-size: 0.85em; color: var(--accent); }
 .about-content h1 { font-size: 2rem; font-weight: 700; margin-bottom: 0.4rem; }
 .about-content .subtitle { color: var(--accent); font-family: var(--font-mono); font-size: 0.9rem; margin-bottom: 1.5rem; }
 .about-content h2 { font-size: 1.15rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-muted); margin: 2.5rem 0 1rem; }
