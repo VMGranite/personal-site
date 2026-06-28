@@ -4,7 +4,7 @@
     <h1>{{ if .IsHome }}All Posts{{ else }}{{ .Title }}{{ end }}</h1>
     {{ with .Description }}<p class="list-description">{{ . }}</p>{{ end }}
     {{ if eq .Section "posts" }}
-    <a href="{{ $.Site.BaseURL }}archive/" class="btn btn-secondary">Archive →</a>
+    <a href="{{ $.Site.BaseURL }}archive/" class="archive-link">Archive →</a>
     {{ end }}
   </header>
 

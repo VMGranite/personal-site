@@ -422,6 +422,8 @@ img { max-width: 100%; height: auto; }
 .archive-item { display: flex; gap: 1.5rem; padding: 0.4rem 0; border-bottom: 1px solid var(--border); }
 .archive-item time { color: var(--text-muted); font-family: var(--font-mono); font-size: 0.85rem; flex-shrink: 0; }
 .list-description { color: var(--text-muted); margin-top: 0.5rem; }
+.archive-link { font-size: 0.9rem; font-weight: 700; color: var(--accent); margin-top: 0.75rem; display: inline-block; }
+.archive-link:hover { color: var(--accent-hover); }
 
 /* ── About / resume page ─────────────────────────────────── */
 .about-content { font-size: 1.05rem; line-height: 1.8; }
