@@ -8,8 +8,7 @@ layout: "about"
 # Veronica Granite
 <div class="subtitle">Full-Stack Thinker  | Engineer with Range</div>
 
-Passionate about technology and the people behind it, <br>
-from the code that ships to the culture that scales it.
+Passionate about technology and the people behind it, from the code that ships to the culture that scales it.
 
 ---
 
