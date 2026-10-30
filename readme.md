@@ -11,7 +11,7 @@ brew install hugo
 # 2. Run the dev server
 hugo server -D
 
-# 3. Open http://localhost:1313
+# 3. Open http://localhost:1313/personal-site/
 ```
 
 ## Customizing
