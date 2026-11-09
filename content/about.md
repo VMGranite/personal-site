@@ -15,9 +15,17 @@ Passionate about technology and the people behind it, from the code that ships t
 ## Experience
 
 <div class="resume-entry">
+  <div class="role">Business Analyst</div>
+  <div class="company">ALDI Nord <span class="company-type">- Grocery Retailer</span></div>
+  <div class="dates">July 2026 – Present</div>
+  <div class="desc">
+  </div>
+</div>
+
+<div class="resume-entry">
   <div class="role">DevOps Engineer</div>
   <div class="company">ALDI Nord <span class="company-type">- Grocery Retailer</span></div>
-  <div class="dates">August 2024 – Present</div>
+  <div class="dates">August 2024 – July 2026</div>
   <div class="desc">
   </div>
   <div class="company">GALERIA Karstadt Kaufhof GmbH <span class="company-type">- Retailer</span></div>
